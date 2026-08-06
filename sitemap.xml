@@ -5,7 +5,23 @@
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://hashimportfolio.me/about</loc>
+      <loc>https://hashimportfolio.me/#/certifications</loc>
       <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://hashimportfolio.me/#/automations</loc>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://hashimportfolio.me/#/case-studies</loc>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://hashimportfolio.me/#/case-studies/rezlens</loc>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://hashimportfolio.me/#/credits</loc>
+      <priority>0.6</priority>
    </url>
 </urlset>
