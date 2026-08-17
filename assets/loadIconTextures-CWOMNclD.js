@@ -1,0 +1,1 @@
+import{T as c,S as r}from"./three.core-DsgXKZRF.js";const s=i=>new Promise(o=>{const e=new Map,n=new Set;let a=i.length;if(a===0){o({textures:e,failed:n});return}i.forEach(t=>{new c().load(t,d=>{d.colorSpace=r,d.needsUpdate=!0,e.set(t,d),--a===0&&o({textures:e,failed:n})},void 0,()=>{n.add(t),--a===0&&o({textures:e,failed:n})})})});export{s as loadIconTextures};

@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, follow" />
   <link rel="canonical" href="https://hashimportfolio.me/404.html" />
+  <script>
+    (function () {
+      try {
+        var path = window.location.pathname;
+        var search = window.location.search;
+        if (path && path !== "/" && path !== "/index.html" && path !== "/404.html") {
+          window.location.replace("/#" + path + search);
+        }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
