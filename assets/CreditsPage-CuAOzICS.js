@@ -1,0 +1,1 @@
+import{r as s,j as e,C as r}from"./index-B3AHUGiC.js";const a=()=>(s.useEffect(()=>{document.title="Credits - Hashim | Portfolio"},[]),e.jsx("div",{className:"relative z-0 bg-primary min-h-screen",children:e.jsx("div",{className:"max-w-7xl mx-auto px-6 py-20",children:e.jsx(r,{})})}));export{a as default};
